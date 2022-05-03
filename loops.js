@@ -10,3 +10,13 @@ while (counter !== 5) {
 for (let i = 0; i <= 10; i++) {
   console.log(i);
 }
+
+[1, 2, 3, 4, 5, 6, 7].forEach((el) => {
+  console.log(el);
+});
+
+const myForEache = (array, cb) => {
+  for(let i = 0; i <= array.length; i++) {
+    cb(array[i]);
+  }
+};
